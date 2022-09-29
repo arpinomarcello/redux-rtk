@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -13,7 +14,8 @@
   }
 }
 
-.App-header {
+.App-header,.myBox {
+  width: 50%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,15 +27,9 @@
 .App-link {
   color: rgb(112, 76, 182);
 }
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.myBox{
+  border-left: 2px solid violet;
 }
+
+
+

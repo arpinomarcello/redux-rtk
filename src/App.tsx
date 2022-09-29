@@ -1,7 +1,7 @@
-import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import UserList from './UserList';
 
 function App() {
   return (
@@ -51,6 +51,9 @@ function App() {
           </a>
         </span>
       </header>
+      <div className='myBox'>
+        <UserList/>
+      </div>
     </div>
   );
 }
